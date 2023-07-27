@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "@pname@"
+version = "@version@"
+description = "@desc@"
+authors = [ @authors@ ]
+readme = "README.md"
+homepage = "@homepage@"
+packages = [{include = "@package@"}]
+
+[tool.poetry.dependencies]
+dbus-next = "^@dbusNextVersion@"
+python = "^@pythonMajorMinorVersion@"
+pythoneda-realm-rydnr-events = "^@pythonedaRealmRydnrEventsVersion@"
+pythoneda-shared-pythoneda-domain = "^@pythonedaSharedPythonedaDomainVersion@"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
