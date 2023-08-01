@@ -49,17 +49,17 @@
       },
       "locked": {
         "dir": "events",
-        "lastModified": 1690830292,
-        "narHash": "sha256-y3sW2hGyHXRmgh9rTy6UDbUq4tgKSDWTxC6MNsaMB7U=",
+        "lastModified": 1690876557,
+        "narHash": "sha256-GDSVPe/f4rCDoGmz9PGYATAYbr3VGDRtfpR48jLu1Rw=",
         "owner": "pythoneda-realm-rydnr",
         "repo": "events-artifact",
-        "rev": "b47172138782bd9b4d1a9cf96381fff510ae602d",
+        "rev": "cf769c3abd6fb16edeeb89c0aae640346c2392a6",
         "type": "github"
       },
       "original": {
         "dir": "events",
         "owner": "pythoneda-realm-rydnr",
-        "ref": "0.0.1a3",
+        "ref": "0.0.1a4",
         "repo": "events-artifact",
         "type": "github"
       }
@@ -74,16 +74,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1690821491,
-        "narHash": "sha256-o8RrnbQDAbSg1lAP5yoVPVGC8JBrS8d/2tLkmI52nhY=",
+        "lastModified": 1690875365,
+        "narHash": "sha256-dY0VW1MUMjn3eeDI4gODridioYot+p3owcSvsqhCrTM=",
         "owner": "pythoneda-shared-pythoneda",
         "repo": "banner",
-        "rev": "8a3420496072e9f3421310bf2182f355b204939c",
+        "rev": "b51639cc229d03a91b8c09eda74bcd95080fdb3d",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythoneda",
-        "ref": "0.0.1a5",
+        "ref": "0.0.1a6",
         "repo": "banner",
         "type": "github"
       }
@@ -102,17 +102,17 @@
       },
       "locked": {
         "dir": "domain",
-        "lastModified": 1690822794,
-        "narHash": "sha256-bNUCs5ietDTfXLvDibyoQ+588+QLpzVM7OFUT+bcMPQ=",
+        "lastModified": 1690875548,
+        "narHash": "sha256-5htzc9RsHHSLaYlVSGlxWS5g3M/MQb9x3qHHUgE+RJk=",
         "owner": "pythoneda-shared-pythoneda",
         "repo": "domain-artifact",
-        "rev": "3e11a718c3b1ed21786f811ab0089ffcba43e54e",
+        "rev": "21d15cb2807e040ceda03d37f12d48f664a44fc6",
         "type": "github"
       },
       "original": {
         "dir": "domain",
         "owner": "pythoneda-shared-pythoneda",
-        "ref": "0.0.1a28",
+        "ref": "0.0.1a29",
         "repo": "domain-artifact",
         "type": "github"
       }
