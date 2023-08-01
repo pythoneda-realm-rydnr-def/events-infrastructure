@@ -49,17 +49,17 @@
       },
       "locked": {
         "dir": "events",
-        "lastModified": 1690876557,
-        "narHash": "sha256-GDSVPe/f4rCDoGmz9PGYATAYbr3VGDRtfpR48jLu1Rw=",
+        "lastModified": 1690933870,
+        "narHash": "sha256-WHyMv641uf50pUR6iWNHUlzwB1wNCNTeROkfFDtjpsQ=",
         "owner": "pythoneda-realm-rydnr",
         "repo": "events-artifact",
-        "rev": "cf769c3abd6fb16edeeb89c0aae640346c2392a6",
+        "rev": "3fc20c92028d01dad91a4202f2ee37ca006e2cff",
         "type": "github"
       },
       "original": {
         "dir": "events",
         "owner": "pythoneda-realm-rydnr",
-        "ref": "0.0.1a4",
+        "ref": "0.0.1a6",
         "repo": "events-artifact",
         "type": "github"
       }
