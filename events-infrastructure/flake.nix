@@ -43,6 +43,16 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
     };
+    pythoneda-shared-pythoneda-infrastructure = {
+      url =
+        "github:pythoneda-shared-pythoneda/infrastructure-artifact/0.0.1a17?dir=infrastructure";
+      inputs.nixos.follows = "nixos";
+      inputs.flake-utils.follows = "flake-utils";
+      inputs.pythoneda-shared-pythoneda-banner.follows =
+        "pythoneda-shared-pythoneda-banner";
+      inputs.pythoneda-shared-pythoneda-domain.follows =
+        "pythoneda-shared-pythoneda-domain";
+    };
   };
   outputs = inputs:
     with inputs;
@@ -66,7 +76,8 @@
         nixpkgsRelease = "nixos-${nixosVersion}";
         shared = import "${pythoneda-shared-pythoneda-banner}/nix/shared.nix";
         pythoneda-realm-rydnr-events-infrastructure-for = { python
-          , pythoneda-realm-rydnr-events, pythoneda-shared-pythoneda-domain }:
+          , pythoneda-realm-rydnr-events, pythoneda-shared-pythoneda-domain
+          , pythoneda-shared-pythoneda-infrastructure }:
           let
             pnameWithUnderscores =
               builtins.replaceStrings [ "-" ] [ "_" ] pname;
@@ -108,6 +119,7 @@
               dbus-next
               pythoneda-realm-rydnr-events
               pythoneda-shared-pythoneda-domain
+              pythoneda-shared-pythoneda-infrastructure
             ];
 
             pythonImportsCheck = [ pythonpackage ];
@@ -187,6 +199,8 @@
                 pythoneda-realm-rydnr-events.packages.${system}.pythoneda-realm-rydnr-events-python38;
               pythoneda-shared-pythoneda-domain =
                 pythoneda-shared-pythoneda-domain.packages.${system}.pythoneda-shared-pythoneda-domain-python38;
+              pythoneda-shared-pythoneda-infrastructure =
+                pythoneda-shared-pythoneda-infrastructure.packages.${system}.pythoneda-shared-pythoneda-infrastructure-python38;
             };
           pythoneda-realm-rydnr-events-infrastructure-python39 =
             pythoneda-realm-rydnr-events-infrastructure-for {
@@ -195,6 +209,8 @@
                 pythoneda-realm-rydnr-events.packages.${system}.pythoneda-realm-rydnr-events-python39;
               pythoneda-shared-pythoneda-domain =
                 pythoneda-shared-pythoneda-domain.packages.${system}.pythoneda-shared-pythoneda-domain-python39;
+              pythoneda-shared-pythoneda-infrastructure =
+                pythoneda-shared-pythoneda-infrastructure.packages.${system}.pythoneda-shared-pythoneda-infrastructure-python39;
             };
           pythoneda-realm-rydnr-events-infrastructure-python310 =
             pythoneda-realm-rydnr-events-infrastructure-for {
@@ -203,6 +219,8 @@
                 pythoneda-realm-rydnr-events.packages.${system}.pythoneda-realm-rydnr-events-python310;
               pythoneda-shared-pythoneda-domain =
                 pythoneda-shared-pythoneda-domain.packages.${system}.pythoneda-shared-pythoneda-domain-python310;
+              pythoneda-shared-pythoneda-infrastructure =
+                pythoneda-shared-pythoneda-infrastructure.packages.${system}.pythoneda-shared-pythoneda-infrastructure-python310;
             };
         };
       });
