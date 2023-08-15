@@ -104,6 +104,8 @@
                 pythoneda-realm-rydnr-events.version;
               pythonedaSharedPythonedaDomainVersion =
                 pythoneda-shared-pythoneda-domain.version;
+              pythonedaSharedPythonedaInfrastructureVersion =
+                pythoneda-shared-pythoneda-infrastructure.version;
               src = pyprojectTemplateFile;
             };
             src = pkgs.fetchFromGitHub {
