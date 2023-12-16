@@ -28,7 +28,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-realm-rydnr-def/events/0.0.6";
+      url = "github:pythoneda-realm-rydnr-def/events/0.0.7";
     };
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -58,8 +58,8 @@
       let
         org = "pythoneda-realm-rydnr";
         repo = "events-infrastructure";
-        version = "0.0.2";
-        sha256 = "sha256-aL84FfGkEkq7Ve8icKPgl6DClUN888/ijZ+fkrbtijc=";
+        version = "0.0.3";
+        sha256 = "12zlzkk0y88n3razaxzh4hbhv8i93rcf4ppxxjyqidxjlraz063j";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.realm.rydnr.events.infrastructure";
         pkgs = import nixos { inherit system; };

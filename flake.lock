@@ -48,16 +48,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1702670895,
-        "narHash": "sha256-Zh7HxsmPNNvZKt+C7R70yuDCUT+mu4xRPt2vdCYaLE4=",
+        "lastModified": 1702718392,
+        "narHash": "sha256-yUlCCiCkkHZ3FtC3SGj7P5bqxfU2rpeKoyQEvDVQ46Q=",
         "owner": "pythoneda-realm-rydnr-def",
         "repo": "events",
-        "rev": "5156d079c3927a7d8f1d30faad876b7c2283a0ae",
+        "rev": "9887badd16ee42210abddf0932a4659d92fa2e8f",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-realm-rydnr-def",
-        "ref": "0.0.6",
+        "ref": "0.0.7",
         "repo": "events",
         "type": "github"
       }
