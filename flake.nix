@@ -114,7 +114,7 @@
 
             format = "pyproject";
 
-            nativeBuildInputs = with python.pkgs; [ pip pkgs.jq poetry-core ];
+            nativeBuildInputs = with python.pkgs; [ pip poetry-core ];
             propagatedBuildInputs = with python.pkgs; [
               dbus-next
               pythoneda-realm-rydnr-events
@@ -141,7 +141,6 @@
               popd
               mkdir $out/dist
               cp dist/${wheelName} $out/dist
-              jq ".url = \"$out/dist/${wheelName}\"" $out/lib/python${pythonMajorMinorVersion}/site-packages/${pnameWithUnderscores}-${version}.dist-info/direct_url.json > temp.json && mv temp.json $out/lib/python${pythonMajorMinorVersion}/site-packages/${pnameWithUnderscores}-${version}.dist-info/direct_url.json
             '';
 
             meta = with pkgs.lib; {
