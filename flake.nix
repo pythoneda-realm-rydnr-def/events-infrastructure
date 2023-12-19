@@ -49,7 +49,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-pythoneda-def/infrastructure/0.0.14";
+      url = "github:pythoneda-shared-pythoneda-def/infrastructure/0.0.15";
     };
   };
   outputs = inputs:
