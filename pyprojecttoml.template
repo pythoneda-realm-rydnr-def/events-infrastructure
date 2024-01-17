@@ -29,8 +29,8 @@ packages = [{include = "@package@"}]
 dbus-next = "^@dbusNextVersion@"
 python = "^@pythonMajorMinorVersion@"
 pythoneda-realm-rydnr-events = "^@pythonedaRealmRydnrEventsVersion@"
-pythoneda-shared-pythoneda-domain = "^@pythonedaSharedPythonedaDomainVersion@"
-pythoneda-shared-pythoneda-infrastructure = "^@pythonedaSharedPythonedaInfrastructureVersion@"
+pythoneda-shared-domain = "^@pythonedaSharedDomainVersion@"
+pythoneda-shared-infrastructure = "^@pythonedaSharedInfrastructureVersion@"
 
 [build-system]
 requires = ["poetry-core"]
