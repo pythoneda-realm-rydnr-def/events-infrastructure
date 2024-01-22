@@ -75,16 +75,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1705524496,
-        "narHash": "sha256-i2sQ5Wf8QcGiK5WlPKbD5kXSmFfgdK0rf6B9aRdornc=",
+        "lastModified": 1705955552,
+        "narHash": "sha256-JNwKLFbxUWMA4c75oo2lbYMYMoKKz8tvpaHNPRPKGlQ=",
         "owner": "pythoneda-realm-rydnr-def",
         "repo": "events",
-        "rev": "f41cafb5b85ea6b36778c4815e732f6b83c05bac",
+        "rev": "28b8660300cf4efee2d77f255134473da2e67d16",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-realm-rydnr-def",
-        "ref": "0.0.19",
+        "ref": "0.0.20",
         "repo": "events",
         "type": "github"
       }
@@ -126,16 +126,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1705517602,
-        "narHash": "sha256-FpYlDY/8QcOJhl2l8a1OJH864+cw32dxuEaxJ5j0OQ8=",
+        "lastModified": 1705951107,
+        "narHash": "sha256-uo0hGLKJO5GEbT0StZQ2enuchtA1T92CehP7KI2cgiQ=",
         "owner": "pythoneda-shared-def",
         "repo": "domain",
-        "rev": "fd3c9c899999aa6d8f388cc10e0e2a967642fa9b",
+        "rev": "98f84075ccd2a7f4b0eec4b04dec389a31502d84",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-def",
-        "ref": "0.0.26",
+        "ref": "0.0.27",
         "repo": "domain",
         "type": "github"
       }
@@ -157,16 +157,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1705523779,
-        "narHash": "sha256-x5sSgHrQtj2pB9LWSD2BcjPyTDFAkMaUwblqbhPaRNA=",
+        "lastModified": 1705954894,
+        "narHash": "sha256-oIz6Ec8vO2FzxR/HI9sZbqVOxSBdYmnlNVQ03pR0B+I=",
         "owner": "pythoneda-shared-def",
         "repo": "infrastructure",
-        "rev": "7c6fb28bc611ec2f0b098bcee9820d75bffda058",
+        "rev": "06137415cff150d0c969089a87f8b090f0b188a1",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-def",
-        "ref": "0.0.23",
+        "ref": "0.0.24",
         "repo": "infrastructure",
         "type": "github"
       }
