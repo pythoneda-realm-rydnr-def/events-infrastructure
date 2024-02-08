@@ -3,11 +3,11 @@
     "esdbclient": {
       "inputs": {
         "flake-utils": [
-          "pythoneda-shared-infrastructure",
+          "pythoneda-shared-pythonlang-infrastructure",
           "flake-utils"
         ],
         "nixos": [
-          "pythoneda-shared-infrastructure",
+          "pythoneda-shared-pythonlang-infrastructure",
           "nixos"
         ]
       },
@@ -67,29 +67,29 @@
         "nixos": [
           "nixos"
         ],
-        "pythoneda-shared-banner": [
-          "pythoneda-shared-banner"
+        "pythoneda-shared-pythonlang-banner": [
+          "pythoneda-shared-pythonlang-banner"
         ],
-        "pythoneda-shared-domain": [
-          "pythoneda-shared-domain"
+        "pythoneda-shared-pythonlang-domain": [
+          "pythoneda-shared-pythonlang-domain"
         ]
       },
       "locked": {
-        "lastModified": 1707331308,
-        "narHash": "sha256-EpS6193km4+ui+8W6jV/58OO87M6ObNW9xWAAaHD0yI=",
+        "lastModified": 1707408187,
+        "narHash": "sha256-WvTfpxiOJO2LMdlA+6gCJsiPRHwKfMQEZ05E1hKmbB0=",
         "owner": "pythoneda-realm-rydnr-def",
         "repo": "events",
-        "rev": "4c515f4839bf0c7fe5245054e90eaa40a4327873",
+        "rev": "adb79c7e4bc0b8036ccaa91df5d5546a61a60d80",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-realm-rydnr-def",
-        "ref": "0.0.25",
+        "ref": "0.0.26",
         "repo": "events",
         "type": "github"
       }
     },
-    "pythoneda-shared-banner": {
+    "pythoneda-shared-pythonlang-banner": {
       "inputs": {
         "flake-utils": [
           "flake-utils"
@@ -99,21 +99,21 @@
         ]
       },
       "locked": {
-        "lastModified": 1705523563,
-        "narHash": "sha256-jjZLUUwAHWLPzyhCZfz01pkr5WdpA4Kn0AP2H6dBX6g=",
-        "owner": "pythoneda-shared-def",
+        "lastModified": 1707394777,
+        "narHash": "sha256-/LWkKDoOh6751ULtZJq6izDwnu3RnGscki3ewbs0Sds=",
+        "owner": "pythoneda-shared-pythonlang-def",
         "repo": "banner",
-        "rev": "d9dfb9513567582424a602e21be72a60e3e631b4",
+        "rev": "440ab4e7894ea0706e5004ddb8c294a0f8f02e78",
         "type": "github"
       },
       "original": {
-        "owner": "pythoneda-shared-def",
-        "ref": "0.0.47",
+        "owner": "pythoneda-shared-pythonlang-def",
+        "ref": "0.0.49",
         "repo": "banner",
         "type": "github"
       }
     },
-    "pythoneda-shared-domain": {
+    "pythoneda-shared-pythonlang-domain": {
       "inputs": {
         "flake-utils": [
           "flake-utils"
@@ -121,26 +121,26 @@
         "nixos": [
           "nixos"
         ],
-        "pythoneda-shared-banner": [
-          "pythoneda-shared-banner"
+        "pythoneda-shared-pythonlang-banner": [
+          "pythoneda-shared-pythonlang-banner"
         ]
       },
       "locked": {
-        "lastModified": 1707330544,
-        "narHash": "sha256-2c8cWb/V0su8AYT8cEm4gnjwcjpMdwcMWqb7GfAqclE=",
-        "owner": "pythoneda-shared-def",
+        "lastModified": 1707394836,
+        "narHash": "sha256-eJcKwHCGnzabQYr364O3MgBjiYMA/XYRCIuwRjh4i3U=",
+        "owner": "pythoneda-shared-pythonlang-def",
         "repo": "domain",
-        "rev": "d6ad2c1699a67084a0d2345e9dba2d16999435bb",
+        "rev": "a7394fe7ebf81978168f7d9719356b12df8e57d5",
         "type": "github"
       },
       "original": {
-        "owner": "pythoneda-shared-def",
-        "ref": "0.0.33",
+        "owner": "pythoneda-shared-pythonlang-def",
+        "ref": "0.0.36",
         "repo": "domain",
         "type": "github"
       }
     },
-    "pythoneda-shared-infrastructure": {
+    "pythoneda-shared-pythonlang-infrastructure": {
       "inputs": {
         "esdbclient": "esdbclient",
         "flake-utils": [
@@ -149,24 +149,24 @@
         "nixos": [
           "nixos"
         ],
-        "pythoneda-shared-banner": [
-          "pythoneda-shared-banner"
+        "pythoneda-shared-pythonlang-banner": [
+          "pythoneda-shared-pythonlang-banner"
         ],
-        "pythoneda-shared-domain": [
-          "pythoneda-shared-domain"
+        "pythoneda-shared-pythonlang-domain": [
+          "pythoneda-shared-pythonlang-domain"
         ]
       },
       "locked": {
-        "lastModified": 1707330581,
-        "narHash": "sha256-T13HCqbDV9KgSTSLe+hAWi0gsISJto2DH4Djz2JSpc4=",
-        "owner": "pythoneda-shared-def",
+        "lastModified": 1707406251,
+        "narHash": "sha256-7pPbenxcBBLi+4AxtomMq2QMzH7bQdYDTdPZtLvYB1s=",
+        "owner": "pythoneda-shared-pythonlang-def",
         "repo": "infrastructure",
-        "rev": "dff3d747c06080ad80fab9cd8368dd6e26b06828",
+        "rev": "1e86a72a0b7f177a8237fec9998c81dfa7949d46",
         "type": "github"
       },
       "original": {
-        "owner": "pythoneda-shared-def",
-        "ref": "0.0.29",
+        "owner": "pythoneda-shared-pythonlang-def",
+        "ref": "0.0.31",
         "repo": "infrastructure",
         "type": "github"
       }
@@ -176,9 +176,9 @@
         "flake-utils": "flake-utils",
         "nixos": "nixos",
         "pythoneda-realm-rydnr-events": "pythoneda-realm-rydnr-events",
-        "pythoneda-shared-banner": "pythoneda-shared-banner",
-        "pythoneda-shared-domain": "pythoneda-shared-domain",
-        "pythoneda-shared-infrastructure": "pythoneda-shared-infrastructure"
+        "pythoneda-shared-pythonlang-banner": "pythoneda-shared-pythonlang-banner",
+        "pythoneda-shared-pythonlang-domain": "pythoneda-shared-pythonlang-domain",
+        "pythoneda-shared-pythonlang-infrastructure": "pythoneda-shared-pythonlang-infrastructure"
       }
     }
   },
