@@ -13,17 +13,17 @@
       },
       "locked": {
         "dir": "esdbclient",
-        "lastModified": 1707764998,
-        "narHash": "sha256-Op0o7E32KYnNOGCAgdwtcauM19gKdQYCXeMHaDbbKtg=",
+        "lastModified": 1731731825,
+        "narHash": "sha256-kOddDyUkMJEJm14yCbfW+DYceAzo/QRD8KDf92IcJJo=",
         "owner": "rydnr",
         "repo": "nix-flakes",
-        "rev": "b1b4c9c15a5d56cad76bfbbb5c1cd9340aa59409",
+        "rev": "a83da54f986cb6a60dc9b71309f186e97a604cff",
         "type": "github"
       },
       "original": {
         "dir": "esdbclient",
         "owner": "rydnr",
-        "ref": "0.1.17",
+        "ref": "esdbclient-1.1.3",
         "repo": "nix-flakes",
         "type": "github"
       }
@@ -127,16 +127,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731739707,
-        "narHash": "sha256-ws8SPT03NewTaqIolEcElKz7q+1F3cEdKDtVLaSatoU=",
+        "lastModified": 1731760774,
+        "narHash": "sha256-BJq/fVgsYpNRnYX0mk++S2tmmP8QfUWZFYMyngIDDvw=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "domain",
-        "rev": "45e2aa1556c00c48de97517ddf1cc1247992a546",
+        "rev": "5160f6fbd264456a28bcae53765758c8c0b54232",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.64",
+        "ref": "0.0.70",
         "repo": "domain",
         "type": "github"
       }
@@ -158,16 +158,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731739873,
-        "narHash": "sha256-Ltcq0KKcEba02BbHQmUoTDNTA65/99+/xCavzyYUVjw=",
+        "lastModified": 1731760313,
+        "narHash": "sha256-MdfIStvX0S0dQzu/q461G9vV3LSVdnVdyhtyMxbpsIs=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "infrastructure",
-        "rev": "9d85364698de31858ad3a8ae968b75112aac1c37",
+        "rev": "392f93a03e6e6147db359f0271906b817302e42f",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.47",
+        "ref": "0.0.50",
         "repo": "infrastructure",
         "type": "github"
       }
