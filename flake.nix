@@ -95,7 +95,7 @@
                 (map (item: ''"${item}"'') maintainers);
               desc = description;
               dbusNextVersion = python.pkgs.dbus-next.version;
-              inherit homepage pname pythonMajorMinorVersion pythonpackage
+              inherit homepage pname pythonMajorMinorVersion package
                 version;
               package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
               pythonedaRealmRydnrEventsVersion =
