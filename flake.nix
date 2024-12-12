@@ -28,19 +28,19 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-realm-rydnr-def/events/0.0.54";
+      url = "github:pythoneda-realm-rydnr-def/events/0.0.56";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixpkgs.follows = "nixpkgs";
-      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.72";
+      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.74";
     };
     pythoneda-shared-pythonlang-domain = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.96";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.101";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -49,7 +49,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.72";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.77";
     };
   };
   outputs = inputs:
@@ -62,6 +62,7 @@
         sha256 = "1cxgv4kxhfsyia9zzx0z2xjjn5f7kl8mx0dkadw0wbgb95zgqinb";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.realm.rydnr.events.infrastructure";
+        package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
         pkgs = import nixpkgs { inherit system; };
         description = "Infrastructure layer of pythoneda-realm-rydnr/events";
         license = pkgs.lib.licenses.gpl3;
@@ -97,7 +98,6 @@
               dbusNextVersion = python.pkgs.dbus-next.version;
               inherit homepage pname pythonMajorMinorVersion package
                 version;
-              package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
               pythonedaRealmRydnrEventsVersion =
                 pythoneda-realm-rydnr-events.version;
               pythonedaSharedPythonlangDomainVersion =
